@@ -50,11 +50,11 @@ git clone <repo_url>
 
 ## 8. Create New Branch
 Never work directly on the `main` or `master` branch. Always create a new branch for your specific task.
-**Naming Convention:** `<dev_name>_<task_name>`
+**Naming Convention:** `<dev_name>/<task_name>`
 1. Open the terminal in VS Code (Ctrl + ~).
 2. Create and switch to a new branch:
 ```bash
-git checkout -b "Mayuresh_Create_Dummy_Page"
+git checkout -b "Mayuresh/Create_Dummy_Page"
 ```
 - `checkout`: Switches branches.
 - `-b`: Creates a new branch if it doesn't exist.
